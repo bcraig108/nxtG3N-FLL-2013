@@ -22,9 +22,6 @@
     <background>background\bkg_GridWise</background>
   </backgrounds>
   <paths name="paths"/>
-  <scripts name="scripts"/>
-  <shaders name="shaders"/>
-  <fonts name="fonts"/>
   <objects name="objects">
     <objects name="Game">
       <objects name="Game Menu">
@@ -37,9 +34,7 @@
       </objects>
     </objects>
   </objects>
-  <timelines name="timelines">
-    <timeline>timelines\tml_timeline0</timeline>
-  </timelines>
+  <timelines name="timelines"/>
   <rooms name="rooms">
     <room>rooms\rm_MainMenu</room>
     <room>rooms\rm_Game</room>
