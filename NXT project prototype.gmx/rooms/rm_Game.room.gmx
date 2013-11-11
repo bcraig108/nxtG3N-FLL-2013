@@ -2,13 +2,13 @@
 <room>
   <caption></caption>
   <width>760</width>
-  <height>520</height>
+  <height>640</height>
   <vsnap>32</vsnap>
   <hsnap>32</hsnap>
   <isometric>0</isometric>
   <speed>30</speed>
   <persistent>0</persistent>
-  <colour>0</colour>
+  <colour>32768</colour>
   <showcolour>-1</showcolour>
   <code></code>
   <enableViews>0</enableViews>
@@ -51,7 +51,16 @@
   </views>
   <instances>
     <instance objName="&lt;undefined&gt;" x="544" y="192" name="inst_2E61D85D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Default" x="0" y="0" name="inst_D35601F8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_GameDefault" x="0" y="0" name="inst_54DA8866" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Powerplant" x="64" y="544" name="inst_A201D246" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Sub" x="128" y="544" name="inst_3B36ACC3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Transformer" x="288" y="544" name="inst_9698CAE4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Fuse" x="352" y="544" name="inst_06797F31" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_SwitchDisconnect" x="416" y="544" name="inst_07EDC701" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_House" x="512" y="544" name="inst_C3313372" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Factory" x="640" y="544" name="inst_42324910" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Business" x="584" y="544" name="inst_2C5EF249" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Transmission_lines" x="224" y="544" name="inst_68FB5F63" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

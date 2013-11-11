@@ -55,8 +55,9 @@
       <object>objects\obj_Factory</object>
     </objects>
     <objects name="Other">
-      <object>objects\obj_creditsScroller</object>
-      <object>objects\obj_Default</object>
+      <object>objects\obj_CreditsDefault</object>
+      <object>objects\obj_MainMenuDefault</object>
+      <object>objects\obj_GameDefault</object>
     </objects>
   </objects>
   <rooms name="rooms">
