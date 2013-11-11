@@ -4,17 +4,30 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\msc_Drops_of_H2O_The_Filtered_Water_Treatment</sound>
+    <sound>sound\msc_ditto_ditto</sound>
+    <sound>sound\msc_sevenhundredbeats</sound>
+    <sound>sound\msc_Relief</sound>
+  </sounds>
   <sprites name="sprites">
-    <sprites name="Game">
-      <sprites name="Game Menus">
-        <sprite>sprites\spr_Start</sprite>
-      </sprites>
-      <sprites name="Game Objects">
-        <sprite>sprites\spr_Powerplant</sprite>
-        <sprite>sprites\spr_Sub</sprite>
-        <sprite>sprites\spr_Transmission_lines</sprite>
-      </sprites>
+    <sprites name="Game Menus">
+      <sprite>sprites\spr_BtnStart</sprite>
+      <sprite>sprites\spr_BtnCredits</sprite>
+    </sprites>
+    <sprites name="Game Objects">
+      <sprite>sprites\spr_Powerplant</sprite>
+      <sprite>sprites\spr_Sub</sprite>
+      <sprite>sprites\spr_Transmission_lines</sprite>
+      <sprite>sprites\spr_Transformer</sprite>
+      <sprite>sprites\spr_Fuse</sprite>
+      <sprite>sprites\spr_SwitchDisconnect</sprite>
+      <sprite>sprites\spr_house</sprite>
+      <sprite>sprites\spr_Business</sprite>
+      <sprite>sprites\spr_Factory</sprite>
+    </sprites>
+    <sprites name="Other">
+      <sprite>sprites\spr_Credits</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -22,22 +35,34 @@
     <background>background\bkg_GridWise</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_PlayMusic.gml</script>
+  </scripts>
   <objects name="objects">
-    <objects name="Game">
-      <objects name="Game Menu">
-        <object>objects\obj_Start</object>
-      </objects>
-      <objects name="Game Objects">
-        <object>objects\obj_Powerplant</object>
-        <object>objects\obj_Sub</object>
-        <object>objects\obj_Transmission_lines</object>
-      </objects>
+    <objects name="Game Menu">
+      <object>objects\obj_Start</object>
+      <object>objects\obj_BtnCredits</object>
+    </objects>
+    <objects name="Game Objects">
+      <object>objects\obj_Powerplant</object>
+      <object>objects\obj_Sub</object>
+      <object>objects\obj_Transmission_lines</object>
+      <object>objects\obj_Transformer</object>
+      <object>objects\obj_Fuse</object>
+      <object>objects\obj_SwitchDisconnect</object>
+      <object>objects\obj_House</object>
+      <object>objects\obj_Business</object>
+      <object>objects\obj_Factory</object>
+    </objects>
+    <objects name="Other">
+      <object>objects\obj_creditsScroller</object>
+      <object>objects\obj_Default</object>
     </objects>
   </objects>
-  <timelines name="timelines"/>
   <rooms name="rooms">
     <room>rooms\rm_MainMenu</room>
     <room>rooms\rm_Game</room>
+    <room>rooms\rm_Credits</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
