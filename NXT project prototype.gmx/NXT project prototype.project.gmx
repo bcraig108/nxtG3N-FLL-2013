@@ -18,11 +18,11 @@
     <sprites name="Game Objects">
       <sprite>sprites\spr_Powerplant</sprite>
       <sprite>sprites\spr_Sub</sprite>
-      <sprite>sprites\spr_Transmission_lines</sprite>
+      <sprite>sprites\spr_TransmissionLines</sprite>
       <sprite>sprites\spr_Transformer</sprite>
       <sprite>sprites\spr_Fuse</sprite>
       <sprite>sprites\spr_SwitchDisconnect</sprite>
-      <sprite>sprites\spr_house</sprite>
+      <sprite>sprites\spr_House</sprite>
       <sprite>sprites\spr_Business</sprite>
       <sprite>sprites\spr_Factory</sprite>
     </sprites>
@@ -37,6 +37,9 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scr_PlayMusic.gml</script>
+    <script>scripts\scr_DnD.gml</script>
+    <script>scripts\scr_MouseInRange.gml</script>
+    <script>scripts\scr_Drag.gml</script>
   </scripts>
   <objects name="objects">
     <objects name="Game Menu">
@@ -46,7 +49,7 @@
     <objects name="Game Objects">
       <object>objects\obj_Powerplant</object>
       <object>objects\obj_Sub</object>
-      <object>objects\obj_Transmission_lines</object>
+      <object>objects\obj_TransmissionLines</object>
       <object>objects\obj_Transformer</object>
       <object>objects\obj_Fuse</object>
       <object>objects\obj_SwitchDisconnect</object>

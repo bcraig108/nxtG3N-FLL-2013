@@ -19,8 +19,8 @@
   <width>32</width>
   <height>32</height>
   <frames>
-    <frame index="0">images\spr_house_0.png</frame>
-    <frame index="1">images\spr_house_1.png</frame>
-    <frame index="2">images\spr_house_2.png</frame>
+    <frame index="0">images\spr_House_0.png</frame>
+    <frame index="1">images\spr_House_1.png</frame>
+    <frame index="2">images\spr_House_2.png</frame>
   </frames>
 </sprite>
