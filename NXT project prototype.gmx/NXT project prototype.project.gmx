@@ -32,7 +32,7 @@
   </sprites>
   <backgrounds name="background">
     <background>background\bkg_Map</background>
-    <background>background\bkg_GridWise</background>
+    <background>background\bkg_GridWyse</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
