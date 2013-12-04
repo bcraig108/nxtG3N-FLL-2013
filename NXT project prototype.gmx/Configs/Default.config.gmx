@@ -43,6 +43,13 @@
     <option_android_licensing_key></option_android_licensing_key>
     <option_android_major_version>1</option_android_major_version>
     <option_android_minor_version>0</option_android_minor_version>
+    <option_android_mobage>0</option_android_mobage>
+    <option_android_mobage_appkey></option_android_mobage_appkey>
+    <option_android_mobage_extension_location></option_android_mobage_extension_location>
+    <option_android_mobage_key></option_android_mobage_key>
+    <option_android_mobage_sandbox>0</option_android_mobage_sandbox>
+    <option_android_mobage_secret></option_android_mobage_secret>
+    <option_android_mobage_version></option_android_mobage_version>
     <option_android_orient_landscape>true</option_android_orient_landscape>
     <option_android_orient_portrait>true</option_android_orient_portrait>
     <option_android_orientation>2</option_android_orientation>
@@ -65,7 +72,7 @@
     <option_changeresolution>false</option_changeresolution>
     <option_closeesc>true</option_closeesc>
     <option_colordepth>0</option_colordepth>
-    <option_display_name>GridWise</option_display_name>
+    <option_display_name>GridWyse Pre-Alpha</option_display_name>
     <option_displayerrors>True</option_displayerrors>
     <option_facebook_appid></option_facebook_appid>
     <option_facebook_enable>0</option_facebook_enable>
@@ -96,7 +103,7 @@
     <option_html5_index>-1</option_html5_index>
     <option_html5_interpolate>-1</option_html5_interpolate>
     <option_html5_jsprepend></option_html5_jsprepend>
-    <option_html5_loadingbar></option_html5_loadingbar>
+    <option_html5_loadingbar>-1</option_html5_loadingbar>
     <option_html5_outputdebugtoconsole>False</option_html5_outputdebugtoconsole>
     <option_html5_outputname>index.html</option_html5_outputname>
     <option_html5_scale>-1</option_html5_scale>
@@ -108,7 +115,7 @@
     <option_in_app_purchase_enable>0</option_in_app_purchase_enable>
     <option_in_app_purchase_sandbox_mode>0</option_in_app_purchase_sandbox_mode>
     <option_in_app_purchase_server_url></option_in_app_purchase_server_url>
-    <option_information></option_information>
+    <option_information>GridWyse Pre-Alpha</option_information>
     <option_interpolate>True</option_interpolate>
     <option_ios_adcolony_enable_V4VC>0</option_ios_adcolony_enable_V4VC>
     <option_ios_advertising_enable>0</option_ios_advertising_enable>
@@ -124,9 +131,12 @@
     <option_ios_google_analytics_enable>0</option_ios_google_analytics_enable>
     <option_ios_google_tracking_id></option_ios_google_tracking_id>
     <option_ios_icon_114>Configs\Default\ios\icons\icon114.png</option_ios_icon_114>
+    <option_ios_icon_120>Configs\Default\ios\icons\icon120.png</option_ios_icon_120>
     <option_ios_icon_144>Configs\Default\ios\icons\icon144.png</option_ios_icon_144>
+    <option_ios_icon_152>Configs\Default\ios\icons\icon152.png</option_ios_icon_152>
     <option_ios_icon_57>Configs\Default\ios\icons\icon57.png</option_ios_icon_57>
     <option_ios_icon_72>Configs\Default\ios\icons\icon72.png</option_ios_icon_72>
+    <option_ios_icon_76>Configs\Default\ios\icons\icon76.png</option_ios_icon_76>
     <option_ios_inmobi_enable>0</option_ios_inmobi_enable>
     <option_ios_inmobi_id></option_ios_inmobi_id>
     <option_ios_inmobi_test_enable>0</option_ios_inmobi_test_enable>
@@ -169,7 +179,7 @@
     <option_mac_build_version>0</option_mac_build_version>
     <option_mac_copyright_info>(c)2012 CompanyName Ltd...</option_mac_copyright_info>
     <option_mac_create_app_store>-1</option_mac_create_app_store>
-    <option_mac_display_name>GridWise</option_mac_display_name>
+    <option_mac_display_name>GridWyse Pre-Alpha</option_mac_display_name>
     <option_mac_enable_steam>0</option_mac_enable_steam>
     <option_mac_fullscreen>0</option_mac_fullscreen>
     <option_mac_icon_png>Configs\Default\mac\icon512.png</option_mac_icon_png>
@@ -228,15 +238,15 @@
     <option_tizen_usesplash>False</option_tizen_usesplash>
     <option_use_new_audio>True</option_use_new_audio>
     <option_variableerrors>False</option_variableerrors>
-    <option_version>0.1</option_version>
+    <option_version>0.1.1</option_version>
     <option_version_build>0</option_version_build>
     <option_version_company>nxtG3N</option_version_company>
     <option_version_copyright></option_version_copyright>
-    <option_version_description>GridWise</option_version_description>
+    <option_version_description>GridWyse Pre-Alpha</option_version_description>
     <option_version_major>0</option_version_major>
     <option_version_minor>1</option_version_minor>
-    <option_version_product>GridWise</option_version_product>
-    <option_version_release>0</option_version_release>
+    <option_version_product>GridWyse</option_version_product>
+    <option_version_release>1</option_version_release>
     <option_win8_advertising_appid></option_win8_advertising_appid>
     <option_win8_advertising_enable>0</option_win8_advertising_enable>
     <option_win8_advertising_key></option_win8_advertising_key>
@@ -244,9 +254,9 @@
     <option_win8_advertising_type>MS Advertising</option_win8_advertising_type>
     <option_win8_analytics_enable>0</option_win8_analytics_enable>
     <option_win8_analytics_id></option_win8_analytics_id>
-    <option_win8_build_version>0</option_win8_build_version>
+    <option_win8_build_version>1</option_win8_build_version>
     <option_win8_certificate_location>Windows8_TemporaryKey.pfx</option_win8_certificate_location>
-    <option_win8_display_name>GridWise</option_win8_display_name>
+    <option_win8_display_name>GridWyse Pre-Alpha</option_win8_display_name>
     <option_win8_internet_capable>0</option_win8_internet_capable>
     <option_win8_interpolate>-1</option_win8_interpolate>
     <option_win8_landscape_allowed>-1</option_win8_landscape_allowed>
@@ -258,8 +268,8 @@
     <option_win8_minor_version>1</option_win8_minor_version>
     <option_win8_native_certificate_location>Win8NativeRunner_TemporaryKey.pfx</option_win8_native_certificate_location>
     <option_win8_native_cpu>x86</option_win8_native_cpu>
-    <option_win8_package_display_name>GridWise</option_win8_package_display_name>
-    <option_win8_package_name>GridWise</option_win8_package_name>
+    <option_win8_package_display_name>GridWyse Pre-Alpha</option_win8_package_display_name>
+    <option_win8_package_name>GridWyse Pre-Alpha</option_win8_package_name>
     <option_win8_portrait_allowed>-1</option_win8_portrait_allowed>
     <option_win8_portrait_flipped_allowed>-1</option_win8_portrait_flipped_allowed>
     <option_win8_publisher_display_name>nxtG3N</option_win8_publisher_display_name>
@@ -276,15 +286,15 @@
     <option_windows_build_version>0</option_windows_build_version>
     <option_windows_company_info>nxtG3N</option_windows_company_info>
     <option_windows_copyright_info></option_windows_copyright_info>
-    <option_windows_description_info>GridWise</option_windows_description_info>
+    <option_windows_description_info>GridWyse Pre-Alpha</option_windows_description_info>
     <option_windows_enable_steam>0</option_windows_enable_steam>
     <option_windows_game_icon>Configs\Default\windows\runner_icon.ico</option_windows_game_icon>
     <option_windows_license>Configs\Default\windows\License.txt</option_windows_license>
     <option_windows_mainor_version>1</option_windows_mainor_version>
     <option_windows_major_version>0</option_windows_major_version>
     <option_windows_nsis_file>Configs\Default\windows\RunnerInstaller.nsi</option_windows_nsis_file>
-    <option_windows_product_info>GridWise</option_windows_product_info>
-    <option_windows_release_version>0</option_windows_release_version>
+    <option_windows_product_info>GridWyse</option_windows_product_info>
+    <option_windows_release_version>1</option_windows_release_version>
     <option_windows_runner_finished>Configs\Default\windows\Runner_finish.bmp</option_windows_runner_finished>
     <option_windows_runner_header>Configs\Default\windows\Runner_header.bmp</option_windows_runner_header>
     <option_windows_save_location>0</option_windows_save_location>
